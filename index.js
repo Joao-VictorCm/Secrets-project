@@ -25,9 +25,6 @@ try {
 } catch (error) {
     res.render("index.ejs",  { content: JSON.stringify(error.response.data) })
 }
-
-
-
 })
 
 app.listen(port, () =>{
